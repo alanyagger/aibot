@@ -5,7 +5,7 @@ import { createOpenAI } from '@ai-sdk/openai';
 
 const openai = createOpenAI({
   baseURL : 'https://api.chatanywhere.tech/v1',
-  apiKEY : 'sk-0Z8kkECGfmqum1aoTIKTHH8oVYqWnNGC3scdAZpSr8RnuvGs',
+  apiKey : 'sk-0Z8kkECGfmqum1aoTIKTHH8oVYqWnNGC3scdAZpSr8RnuvGs',
   compatibility: 'compatible',
 });
 
